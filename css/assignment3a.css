@@ -1,0 +1,59 @@
+h1{
+    text-shadow:-4px -3px 3px rgba(0,0,0,0.5);
+}
+h2{
+    color:rgba(0,0,0,0.5);
+}
+a{
+   
+    text-decoration:none;
+    display:flex;
+    width: 150px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border:solid red;
+
+}
+a:hover{
+    background-color: black;
+}
+/* body{
+    background-image: url(../images/photo1.jfif);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+    right:100px;
+    margin: ceter; */
+/* h1,h2,{
+    display:flex;
+    width:600px;
+    geight:100vh;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+} */
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    position:relative;
+    left:25px;
+    width:500px;
+    height:100vh;
+}
+.container{
+    background-color:white;
+    width:870px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: -30px 0px 20px silver, 30px 0px 20px silver;
+    margin:auto;
+}
+
+
